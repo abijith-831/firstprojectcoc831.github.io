@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.navibar{
+    background-color: black;
+    width: 1100px;
+    height: 65px;
+    margin-left:250px;
+    position: absolute;
+    top: 0;
+    position: fixed;
+}
+.logo{
+    height: 35px;
+    padding: 13px; 
+}
+.logobar {
+    display: flex;
+    color: white;
+  text-decoration: none;
+   display: flex; 
+   float: left;
+   list-style-type: none;
+}
+#parent{
+    position: relative;
+}
+.sidebar{
+    width: 1000px;
+}
+.greysearch{
+    width: 12px;
+}
+.sidebar ul li{
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+    padding-left: 50px;
+    padding-top: 23px;
+    font-size: 11px;
+    font-family: SupercellText-Regular,Helvetica,Arial,sans-serif;
+}
+p{
+    font-family: SupercellText-Regular,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.baseimg{
+   height: 570px;
+    width: 100%;
+    position: absolute;
+}
+.mainlogo{
+    position: relative;
+    text-align: center;
+    width: 190px;
+    margin-top: 115px;
+    margin-left:44%
+}
+#img1{
+    margin-top: 400px;
+    height: 330px;
+   margin-left: 70px;
+    margin-top: 410px;
+}
+.text{
+    margin-left: 800px;
+    margin-right: 250px;
+    margin-top: -250px;
+}
+text p {
+    text-align: right;
+    font-size: 10px;
+}
+
+ul li{
+    display: inline;
+    
+}
+.dwnlds li img{
+    width: 100px;
+    height: 30px;
+    margin-left: -30px;
+    padding-left: 20px;
+    
+}
+h2{
+   margin-top: 90px;
+   text-align: center;
+   font-size: 25px;
+}
+.imgcontainer{
+    display: flex;
+    padding-left: 220px;
+    margin-top: -25px;
+    
+}
+
+
+.img2{
+    width: 520px;
+    height: 313px;
+    padding-left: 40px;
+   
+}
+.img3{
+    margin-left: 350px;
+   
+}
+#clashoween{
+    width: 520px;
+    height: 280px;
+    margin-top: -15px;
+}
+#goblin{
+    width: 600px;
+    height: 280px;
+    margin-top: -15px;
+    margin-left: -320px;
+}
+
+#img2text{
+color: crimson;
+padding-top: 10px;
+margin-left: 200px;
+font-size: 10px;
+
+}
+#img3text{
+color: crimson;
+padding-top: 10px;
+margin-left: -53px;
+font-size: 10px;
+}
+h3{
+    text-transform: capitalize;
+}
+#img3texts{
+    margin-left: -94px;
+    font-family: SupercellText-Regular,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+}
+#img2texts{
+    margin-left: 140px;
+    font-family: SupercellText-Regular,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.newsb{
+    color: white;
+    height: 27px;
+    text-align: center;
+    width: 150px;
+    font-size: 10px;
+    background: rgb(33, 157, 240);
+    margin-top: 30px;
+    margin-left: 700px;
+    border-radius: 5px;
+    border: 1px solid  rgb(33, 157, 240);
+    font-family: SupercellHeadline-Heavy,sans-serif;
+}
+.headline{
+    font-family: SupercellHeadline-Heavy,sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+.new{
+    font-family: SupercellHeadline-Heavy,sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+span{
+    position: absolute;
+}
+
+#imglink1{
+    width: 480px;
+    margin-left: 200px;
+    position: absolute;
+}
+#playbutton{
+    position: relative;
+    width: 100px;
+}
+#imglink2{
+    width: 480px;
+    padding-left: 25px;
+    margin-left: 680px;
+   
+}
+.ytlinks{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.underbar{
+    display: flex;
+   
+}
+.u1{
+    margin-top: -5px;
+    width: 480px;
+    height: 60px;
+    background-color: whitesmoke;
+    margin-left: 300px;
+}
+.u2{
+    width: 480px;
+    height: 60px;
+    background-color: whitesmoke;
+    margin-left: 25px;
+    margin-top: -5px;
+}
+#h51 {
+    padding: 20px;
+    width: 140px;
+    
+    font-family: SupercellText-Regular,Helvetica,Arial,sans-serif;
+    font-size: 10px;
+    color: rgb(19, 111, 185);
+}
+#h52 {
+    padding: 20px;
+    width: 200px;
+    
+    font-family: SupercellText-Regular,Helvetica,Arial,sans-serif;
+    font-size: 10px;
+    color: rgb(19, 111, 185);
+}
+.ytlogo1{
+    width: 110px;
+    margin-bottom: 150px;
+    margin-left: 320px;
+    position: relative;
+    padding-top: 17px;
+}
+.ytlogo2{
+    width: 110px;
+
+    margin-bottom: 150px;
+    margin-left: 320px;
+    position: relative;
+    padding-top: 17px;
+}
+.wb{
+    width: 100%;
+    height: 215px;
+    background-image: linear-gradient(
+        white 0px 80px,
+        rgb(19, 111, 185) 80px 200px
+    );
+    margin-top: -90px;
+}
+.h1text{
+    color: white;
+    width: 500px;
+    height: 50px;
+    padding-top:105px;
+    padding-left: 280px;
+    font-size: 20px;
+    font-family: SupercellHeadline-Heavy,sans-serif;
+}
+.imgpekka{
+    width: 180px;
+    margin-top: -140px;
+    margin-left: 1000px;
+}
+.pos{
+   width: 145px;
+   height: 27px;
+   color: black;
+   border-radius: 5px;
+    border: 1px solid  rgb(33, 157, 240);
+    border-radius: 5px;
+    font-size: 11px;
+    margin-left: 450px;
+    font-family: SupercellHeadline-Heavy,sans-serif;
+}
+.dwnlds ul li{
+    padding-left: 10px;
+}
+.black{
+    width: 100%;
+    height: 320px;
+    background-color: black;
+}
+h6{
+    margin-left: 300px;
+    padding-top: 25px;
+    color: white;
+    font-family: SupercellHeadline-Heavy,sans-serif;
+    font-size: 8px;
+}
+.icons{
+    height: 17px;
+    padding-left: 15px; 
+}
+.blacklogos{
+    margin-left: 285px;
+    margin-top: 10px;
+}
+.playstore{
+    float: right;
+    margin-right: 300px;
+    margin-top: -20px;
+}
+.store{
+    height: 35px;
+}
+hr{
+    width: 985px;
+    margin-left: 300px;
+    margin-top: 30px;
+    color: grey;
+    background-color: grey;
+}
+.blacklist ul li{
+    font-size: 10px;
+    padding-left: 15px;
+    font-family: SupercellHeadline-Heavy,sans-serif;
+}
+.blacklist ul{
+    margin-left: 285px;
+    margin-top: 15px;
+    color: white;
+}
+.para1 ul{
+    font-size: 9px;
+    margin-left: 300px;
+    margin-top: 10px;
+    line-height: 15px;
+    color: grey;
+    width: 80px;
+}
+.para1{
+    width: 80px;
+}
+.para1 ul li{
+    list-style: none;
+ padding-top: 10px;
+ font-family: SupercellHeadline-Heavy,sans-serif;
+}
+.superlogo{
+    width: 37px;
+    height: 33px;
+}
+.suplogo{
+    float: right;
+    margin-right: 300px;
+    margin-top: 30px;
+}
+.greyicons{
+    width: 20px;
+   
+}
+.greybar ul li{
+    width: 20px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    display: inline;
+}
+.greybar{
+    width: 180px;
+    float: right;
+}
+.spaceimg{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.cell{
+    width: 500px;
+    height: 300px;
+    margin-top: 100px;  
+}
+#cell1{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    padding-bottom: 200px;
+} 
+.bannertext{
+    position: absolute;
+    top: 25%;
+} 
+.imgspace{
+    width: 100%;
+   height: 400px;
+ position: absolute;
+}
+.headings{
+    position: relative;
+    color: #fff;
+   padding-left: 300px;
+   padding-top: 43px;
+   width: 100%;
+   display: flex;
+   margin-top: 40px;
+}
+.headings h1{
+ font-size: 20px;
+ font-family: SupercellHeadline-Heavy,sans-serif;
+}
+.headings p{
+    font-size: 13px;
+    font-family: SupercellText-Regular,Helvetica,Arial,sans-serif;
+}
+.smlogos{
+    width: 500px;
+    margin-top: 15px;
+}
+.spacelogos{
+    width: 18px;
+    justify-content: space-between;
+    padding-right: 8px;
+}
+.phoneimg{
+    position: relative;
+   float: left;
+   padding-left: 150px;
+    width: 600px;
+    padding-bottom: 150px;
+
+}
+.phonespace{
+    width: 600px;
+   
+}
+.texts{
+    padding-top: 80px;
+
+}
